@@ -1,0 +1,194 @@
+{
+  "A": {
+    "words": [
+      "APPLE",
+      "AEROPLANE",
+      "Ant"
+    ]
+  },
+  "B": {
+    "words": [
+      "BALL",
+      "BUS",
+      "BUBBLES",
+      "BOY",
+      "BOTTLE",
+      "BAG",
+      "BAT"
+    ]
+  },
+  "C": {
+    "words": [
+      "CAT",
+      "COW",
+      "CARROT",
+      "COLOR",
+      "CLOCK",
+      "CROW",
+      "CAR",
+      "CHAIR"
+    ]
+  },
+  "D": {
+    "words": [
+      "DOG",
+      "DUCK",
+      "DOLL",
+      "DOLPHIN",
+      "DRAWING",
+      "DESK"
+    ]
+  },
+  "E": {
+    "words": [
+      "EGG",
+      "ELEPHANT",
+      "EYE",
+      "EAR"
+    ]
+  },
+  "F": {
+    "words": [
+      "FISH",
+      "FROG",
+      "FLOWER"
+    ]
+  },
+  "G": {
+    "words": [
+      "GIRL",
+      "GRASS",
+      "GLASS",
+      "GREEN",
+      "GUITAR"
+    ]
+  },
+  "H": {
+    "words": [
+      "HAT",
+      "HOUSE",
+      "HAND",
+      "HORSE"
+    ]
+  },
+  "I": {
+    "words": [
+      "IGLU",
+      "ICE",
+      "ICECREAM"
+    ]
+  },
+  "J": {
+    "words": [
+      "JUNGLE",
+      "JUICE",
+      "JAR",
+      "JELLY"
+    ]
+  },
+  "K": {
+    "words": [
+      "KITTEN",
+      "KITE",
+      "KEY"
+    ]
+  },
+  "L": {
+    "words": [
+      "LAMB",
+      "LION",
+      "LEOPARD",
+      "LAMP"
+    ]
+  },
+  "M": {
+    "words": [
+      "MONKEY",
+      "MAN",
+      "MANGO",
+      "MUSHROOM"
+    ]
+  },
+  "N": {
+    "words": [
+      "NEST",
+      "NUMBER",
+      "NOSE"
+    ]
+  },
+  "O": {
+    "words": [
+      "ORANGE",
+      "OWL"
+    ]
+  },
+  "P": {
+    "words": [
+      "PIG",
+      "PARROT"
+    ]
+  },
+  "Q": {
+    "words": [
+      "QUACK",
+      "QUEEN"
+    ]
+  },
+  "R": {
+    "words": [
+      "RAINBOW",
+      "RAT"
+    ]
+  },
+  "S": {
+    "words": [
+      "SUN",
+      "SHOE"
+    ]
+  },
+  "T": {
+    "words": [
+      "TRAIN",
+      "TIGER",
+      "TURTLE",
+      "TUNNEL",
+      "TRUCK"
+    ]
+  },
+  "U": {
+    "words": [
+      "UMBRELLA"
+    ]
+  },
+  "V": {
+    "words": [
+      "VAN",
+      "VIOLET",
+      "VEGETABLES"
+    ]
+  },
+  "W": {
+    "words": [
+      "WATCH",
+      "WHALE",
+      "WATER"
+    ]
+  },
+  "X": {
+    "words": [
+      "XYLOPHONE"
+    ]
+  },
+  "Y": {
+    "words": [
+      "YELLOW",
+      "YOYO"
+    ]
+  },
+  "Z": {
+    "words": [
+      "ZEBRA",
+      "ZOO"
+    ]
+  }
+}

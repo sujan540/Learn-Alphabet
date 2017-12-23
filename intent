@@ -1,0 +1,365 @@
+MainMenu main menu
+ABCDRhymes play A B C D song
+ABCDRhymes play A B C song
+ABCDRhymes play A B song
+ABCDRhymes play song
+Rhymes next song
+Rhymes play rhymes
+LearnWords learn words
+LearnWords learn word
+PlayQuiz play quiz
+PlayQuiz next word
+PlayQuiz next words
+CheckThreeAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree}
+CheckFourAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour}
+CheckFiveAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive}
+CheckSixAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix}
+CheckSevenAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix} {alphabetSeven}
+CheckEightAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix} {alphabetSeven} {alphabetEight}
+CheckNineAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix} {alphabetSeven} {alphabetEight} {alphabetNine}
+CheckTenAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix} {alphabetSeven} {alphabetEight} {alphabetNine} {alphabetTen}
+CheckElevenAlphabetWord {alphabetOne} {alphabetTwo} {alphabetThree} {alphabetFour} {alphabetFive} {alphabetSix} {alphabetSeven} {alphabetEight} {alphabetNine} {alphabetTen} {alphabetEleven}
+GetWord {alphabet} for
+
+{
+  "intents": [
+    {
+      "intent": "MainMenu"
+    },
+    {
+      "intent": "ABCDRhymes"
+    },
+    {
+      "intent": "Rhymes"
+    },
+    {
+      "intent": "LearnWords"
+    },
+    {
+      "intent": "PlayQuiz"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckThreeAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckFourAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckFiveAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckSixAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }, {
+          "name": "alphabetSeven",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckSevenAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }, {
+          "name": "alphabetSeven",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetEight",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckEightAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+        
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }, {
+          "name": "alphabetSeven",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetEight",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetNine",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckNineAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }, {
+          "name": "alphabetSeven",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetEight",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetNine",
+          "type": "alphabet"
+        },
+         {
+          "name": "alphabetTen",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckTenAlphabetWord"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabetOne",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetTwo",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetThree",
+          "type": "alphabet"
+        },
+         {
+          "name": "alphabetFour",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetFive",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetSix",
+          "type": "alphabet"
+        }, {
+          "name": "alphabetSeven",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetEight",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetNine",
+          "type": "alphabet"
+        },
+         {
+          "name": "alphabetTen",
+          "type": "alphabet"
+        },
+        {
+          "name": "alphabetEleven",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "CheckElevenAlphabetWord"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "alphabet",
+          "type": "alphabet"
+        }
+      ],
+      "intent": "GetWord"
+    }
+  ]
+}
+
+
+U
+V
+W
+X
+Z
